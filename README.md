@@ -11,10 +11,10 @@ npm install mofron mofron-comp-menuctl
 
 # Sample
 ```html
-<require>
+<setting>
     <tag load="mofron-comp-menuctl">MenuCtl</tag>
     <tag load="mofron-comp-txtframe">TxtFrame</tag>
-</require>
+</setting>
 
 <MenuCtl>
     <menu:pull offset=-0.01rem horizon=true></menu:pull>

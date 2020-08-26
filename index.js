@@ -15,7 +15,7 @@ module.exports = class extends mofron.class.Component {
     constructor (prm) {
         try {
             super();
-            this.name("MenuCtl");
+            this.modname("MenuCtl");
 
 	    /* init config */
             this.confmng().add("contents", { type: "Component", list: true });
